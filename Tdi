@@ -1,0 +1,641 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Bar = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local CharacterName = Instance.new("TextLabel")
+local WinObby = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local MaleItsDontWaste = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local FemaleItsDontWaste = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local JerkTool = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local FreakyScript = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local DeXu = Instance.new("TextLabel")
+local DeXuOwner = Instance.new("TextLabel")
+local SoundPanel = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Genesis = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local SimpleSpy = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Frame2 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Bar_2 = Instance.new("Frame")
+local Flyv3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local DeXu_2 = Instance.new("TextLabel")
+local DeXuOwner_2 = Instance.new("TextLabel")
+local VFly = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local RemoteSpy = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local SillyAnim = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local ChatSpy = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local SeeVote = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TpUnanchoreduseinpracticemodeblockpush = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Nigga = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+Frame.BackgroundTransparency = 0.300
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.322580636, 0, 0.0213567838, 0)
+Frame.Size = UDim2.new(0, 516, 0, 762)
+Frame.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = Frame
+
+Bar.Name = "Bar"
+Bar.Parent = Frame
+Bar.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Bar.BackgroundTransparency = 0.200
+Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0, 0, 0.0589254759, 0)
+Bar.Size = UDim2.new(0, 517, 0, 5)
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 0.300
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.518375218, 0, 0.906412482, 0)
+TextBox.Size = UDim2.new(0, 235, 0, 30)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 21.000
+
+UICorner_2.Parent = TextBox
+
+CharacterName.Name = "Character Name"
+CharacterName.Parent = Frame
+CharacterName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CharacterName.BackgroundTransparency = 1.000
+CharacterName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CharacterName.BorderSizePixel = 0
+CharacterName.Position = UDim2.new(0, 0, 0.889081478, 0)
+CharacterName.Size = UDim2.new(0, 286, 0, 50)
+CharacterName.Font = Enum.Font.SourceSansBold
+CharacterName.Text = "Put Your Character Name!"
+CharacterName.TextColor3 = Color3.fromRGB(0, 0, 0)
+CharacterName.TextSize = 24.000
+
+WinObby.Name = "Win Obby"
+WinObby.Parent = Frame
+WinObby.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WinObby.BackgroundTransparency = 0.300
+WinObby.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WinObby.BorderSizePixel = 0
+WinObby.Position = UDim2.new(0.0618955642, 0, 0.0781601816, 0)
+WinObby.Size = UDim2.new(0, 439, 0, 50)
+WinObby.Modal = true
+WinObby.Font = Enum.Font.SourceSansBold
+WinObby.Text = "Win Obby"
+WinObby.TextColor3 = Color3.fromRGB(0, 0, 0)
+WinObby.TextSize = 25.000
+WinObby.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/h0iqqfCT'),true))()
+end)
+UICorner_3.CornerRadius = UDim.new(1, 0)
+UICorner_3.Parent = WinObby
+
+MaleItsDontWaste.Name = "Male (It's Dont Waste @)"
+MaleItsDontWaste.Parent = Frame
+MaleItsDontWaste.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MaleItsDontWaste.BackgroundTransparency = 0.300
+MaleItsDontWaste.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MaleItsDontWaste.BorderSizePixel = 0
+MaleItsDontWaste.Position = UDim2.new(0.0618955642, 0, 0.17238909, 0)
+MaleItsDontWaste.Size = UDim2.new(0, 439, 0, 50)
+MaleItsDontWaste.Modal = true
+MaleItsDontWaste.Font = Enum.Font.SourceSansBold
+MaleItsDontWaste.Text = "Male (It's Dont Waste @)"
+MaleItsDontWaste.TextColor3 = Color3.fromRGB(0, 0, 0)
+MaleItsDontWaste.TextSize = 25.000
+MaleItsDontWaste.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/9u5tK1pu'),true))()
+end)
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = MaleItsDontWaste
+
+FemaleItsDontWaste.Name = "Female (It's Dont Waste @)"
+FemaleItsDontWaste.Parent = Frame
+FemaleItsDontWaste.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FemaleItsDontWaste.BackgroundTransparency = 0.300
+FemaleItsDontWaste.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FemaleItsDontWaste.BorderSizePixel = 0
+FemaleItsDontWaste.Position = UDim2.new(0.0618955642, 0, 0.273450315, 0)
+FemaleItsDontWaste.Size = UDim2.new(0, 439, 0, 50)
+FemaleItsDontWaste.Modal = true
+FemaleItsDontWaste.Font = Enum.Font.SourceSansBold
+FemaleItsDontWaste.Text = "Female (It's Dont Waste @)"
+FemaleItsDontWaste.TextColor3 = Color3.fromRGB(0, 0, 0)
+FemaleItsDontWaste.TextSize = 25.000
+FemaleItsDontWaste.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/m9L8B41A'),true))()
+end)
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = FemaleItsDontWaste
+
+JerkTool.Name = "Jerk Tool"
+JerkTool.Parent = Frame
+JerkTool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JerkTool.BackgroundTransparency = 0.300
+JerkTool.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JerkTool.BorderSizePixel = 0
+JerkTool.Position = UDim2.new(0.0618955642, 0, 0.370624602, 0)
+JerkTool.Size = UDim2.new(0, 439, 0, 50)
+JerkTool.Modal = true
+JerkTool.Font = Enum.Font.SourceSansBold
+JerkTool.Text = "Jerk Tool"
+JerkTool.TextColor3 = Color3.fromRGB(0, 0, 0)
+JerkTool.TextSize = 25.000
+JerkTool.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/531CnrpK'),true))()
+end)
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = JerkTool
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Frame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.BackgroundTransparency = 0.300
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.0618955642, 0, 0.466115832, 0)
+InfiniteYield.Size = UDim2.new(0, 439, 0, 50)
+InfiniteYield.Modal = true
+InfiniteYield.Font = Enum.Font.SourceSansBold
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 25.000
+InfiniteYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/235Z7Zqm'),true))()
+end)
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = InfiniteYield
+
+FreakyScript.Name = "Freaky Script"
+FreakyScript.Parent = Frame
+FreakyScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FreakyScript.BackgroundTransparency = 0.300
+FreakyScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FreakyScript.BorderSizePixel = 0
+FreakyScript.Position = UDim2.new(0.0618955642, 0, 0.560294628, 0)
+FreakyScript.Size = UDim2.new(0, 439, 0, 50)
+FreakyScript.Modal = true
+FreakyScript.Font = Enum.Font.SourceSansBold
+FreakyScript.Text = "Freaky Script"
+FreakyScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+FreakyScript.TextSize = 25.000
+FreakyScript.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/8FXVSJVj'),true))()
+end)
+UICorner_8.CornerRadius = UDim.new(1, 0)
+UICorner_8.Parent = FreakyScript
+
+DeXu.Name = "DeXu"
+DeXu.Parent = Frame
+DeXu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DeXu.BackgroundTransparency = 1.000
+DeXu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DeXu.BorderSizePixel = 0
+DeXu.Position = UDim2.new(-0.0523255803, 0, 0, 0)
+DeXu.Size = UDim2.new(0, 182, 0, 34)
+DeXu.Font = Enum.Font.SourceSansBold
+DeXu.Text = "DeXu"
+DeXu.TextColor3 = Color3.fromRGB(0, 0, 0)
+DeXu.TextSize = 31.000
+DeXu.TextWrapped = true
+
+DeXuOwner.Name = "DeXuOwner"
+DeXuOwner.Parent = Frame
+DeXuOwner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DeXuOwner.BackgroundTransparency = 1.000
+DeXuOwner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DeXuOwner.BorderSizePixel = 0
+DeXuOwner.Position = UDim2.new(0.125535354, 0, 0, 0)
+DeXuOwner.Size = UDim2.new(0, 182, 0, 34)
+DeXuOwner.Font = Enum.Font.SourceSansBold
+DeXuOwner.Text = "- V3nom"
+DeXuOwner.TextColor3 = Color3.fromRGB(0, 0, 0)
+DeXuOwner.TextSize = 31.000
+DeXuOwner.TextWrapped = true
+
+SoundPanel.Name = "Sound Panel"
+SoundPanel.Parent = Frame
+SoundPanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SoundPanel.BackgroundTransparency = 0.300
+SoundPanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SoundPanel.BorderSizePixel = 0
+SoundPanel.Position = UDim2.new(0.0618955642, 0, 0.648221135, 0)
+SoundPanel.Size = UDim2.new(0, 439, 0, 50)
+SoundPanel.Modal = true
+SoundPanel.Font = Enum.Font.SourceSansBold
+SoundPanel.Text = "Sound Panel"
+SoundPanel.TextColor3 = Color3.fromRGB(0, 0, 0)
+SoundPanel.TextSize = 25.000
+SoundPanel.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/VRiAmLra'),true))()
+end)
+UICorner_9.CornerRadius = UDim.new(1, 0)
+UICorner_9.Parent = SoundPanel
+
+Genesis.Name = "Genesis"
+Genesis.Parent = Frame
+Genesis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Genesis.BackgroundTransparency = 0.300
+Genesis.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Genesis.BorderSizePixel = 0
+Genesis.Position = UDim2.new(0.0618955642, 0, 0.737460017, 0)
+Genesis.Size = UDim2.new(0, 439, 0, 50)
+Genesis.Modal = true
+Genesis.Font = Enum.Font.SourceSansBold
+Genesis.Text = "Genesis"
+Genesis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Genesis.TextSize = 25.000
+Genesis.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/7ggaHct6'),true))()
+end)
+UICorner_10.CornerRadius = UDim.new(1, 0)
+UICorner_10.Parent = Genesis
+
+SimpleSpy.Name = "Simple Spy"
+SimpleSpy.Parent = Frame
+SimpleSpy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SimpleSpy.BackgroundTransparency = 0.300
+SimpleSpy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SimpleSpy.BorderSizePixel = 0
+SimpleSpy.Position = UDim2.new(0.0618955642, 0, 0.822761834, 0)
+SimpleSpy.Size = UDim2.new(0, 439, 0, 50)
+SimpleSpy.Modal = true
+SimpleSpy.Font = Enum.Font.SourceSansBold
+SimpleSpy.Text = "SimpleSpy"
+SimpleSpy.TextColor3 = Color3.fromRGB(0, 0, 0)
+SimpleSpy.TextSize = 25.000
+SimpleSpy.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/xf7RSn44'),true))()
+end)
+UICorner_11.CornerRadius = UDim.new(1, 0)
+UICorner_11.Parent = SimpleSpy
+
+Button.Name = "Button"
+Button.Parent = ScreenGui
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button.BackgroundTransparency = 0.400
+Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0778914243, 0, 0.0489949733, 0)
+Button.Size = UDim2.new(0, 92, 0, 70)
+Button.Font = Enum.Font.SourceSansBold
+Button.Text = "DeXu"
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextSize = 40.000
+
+UICorner_12.CornerRadius = UDim.new(1, 0)
+UICorner_12.Parent = Button
+
+Frame2.Name = "Frame2"
+Frame2.Parent = ScreenGui
+Frame2.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+Frame2.BackgroundTransparency = 0.300
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(-0.077104643, 0, 0.309045225, 0)
+Frame2.Size = UDim2.new(0, 380, 0, 509)
+Frame2.Visible = false
+
+UICorner_13.CornerRadius = UDim.new(0, 9)
+UICorner_13.Parent = Frame2
+
+Bar_2.Name = "Bar"
+Bar_2.Parent = Frame2
+Bar_2.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Bar_2.BackgroundTransparency = 0.200
+Bar_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bar_2.BorderSizePixel = 0
+Bar_2.Position = UDim2.new(0, 0, 0.0589254722, 0)
+Bar_2.Size = UDim2.new(0, 380, 0, 5)
+
+Flyv3.Name = "Fly v3"
+Flyv3.Parent = Frame2
+Flyv3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Flyv3.BackgroundTransparency = 0.300
+Flyv3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Flyv3.BorderSizePixel = 0
+Flyv3.Position = UDim2.new(0.00263157906, 0, 0.201932296, 0)
+Flyv3.Size = UDim2.new(0, 378, 0, 30)
+Flyv3.Modal = true
+Flyv3.Font = Enum.Font.SourceSansBold
+Flyv3.Text = "Fly V3"
+Flyv3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Flyv3.TextSize = 25.000
+Flyv3.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/Vt62j7jQ'),true))()
+end)
+UICorner_14.CornerRadius = UDim.new(1, 0)
+UICorner_14.Parent = Flyv3
+
+DeXu_2.Name = "DeXu"
+DeXu_2.Parent = Frame2
+DeXu_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DeXu_2.BackgroundTransparency = 1.000
+DeXu_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DeXu_2.BorderSizePixel = 0
+DeXu_2.Position = UDim2.new(-0.0523255803, 0, 0, 0)
+DeXu_2.Size = UDim2.new(0, 182, 0, 34)
+DeXu_2.Font = Enum.Font.SourceSansBold
+DeXu_2.Text = "DeXu"
+DeXu_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+DeXu_2.TextSize = 31.000
+DeXu_2.TextWrapped = true
+
+DeXuOwner_2.Name = "DeXuOwner"
+DeXuOwner_2.Parent = Frame2
+DeXuOwner_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DeXuOwner_2.BackgroundTransparency = 1.000
+DeXuOwner_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DeXuOwner_2.BorderSizePixel = 0
+DeXuOwner_2.Position = UDim2.new(0.175535336, 0, 0, 0)
+DeXuOwner_2.Size = UDim2.new(0, 182, 0, 34)
+DeXuOwner_2.Font = Enum.Font.SourceSansBold
+DeXuOwner_2.Text = "- V3nom"
+DeXuOwner_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+DeXuOwner_2.TextSize = 31.000
+DeXuOwner_2.TextWrapped = true
+
+VFly.Name = "VFly"
+VFly.Parent = Frame2
+VFly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VFly.BackgroundTransparency = 0.300
+VFly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VFly.BorderSizePixel = 0
+VFly.Position = UDim2.new(0.00263157906, 0, 0.294455826, 0)
+VFly.Size = UDim2.new(0, 378, 0, 30)
+VFly.Modal = true
+VFly.Font = Enum.Font.SourceSansBold
+VFly.Text = "VFly"
+VFly.TextColor3 = Color3.fromRGB(0, 0, 0)
+VFly.TextSize = 25.000
+VFly.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/MHE1cbWF'),true))()
+end)
+UICorner_15.CornerRadius = UDim.new(1, 0)
+UICorner_15.Parent = VFly
+
+RemoteSpy.Name = "RemoteSpy"
+RemoteSpy.Parent = Frame2
+RemoteSpy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RemoteSpy.BackgroundTransparency = 0.300
+RemoteSpy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RemoteSpy.BorderSizePixel = 0
+RemoteSpy.Position = UDim2.new(0.00263157906, 0, 0.379113138, 0)
+RemoteSpy.Size = UDim2.new(0, 379, 0, 29)
+RemoteSpy.Modal = true
+RemoteSpy.Font = Enum.Font.SourceSansBold
+RemoteSpy.Text = "RemoteSpy"
+RemoteSpy.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoteSpy.TextSize = 25.000
+RemoteSpy.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/HAqhgUrW'),true))()
+end)
+UICorner_16.CornerRadius = UDim.new(1, 0)
+UICorner_16.Parent = RemoteSpy
+
+SillyAnim.Name = "Silly Anim"
+SillyAnim.Parent = Frame2
+SillyAnim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SillyAnim.BackgroundTransparency = 0.300
+SillyAnim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SillyAnim.BorderSizePixel = 0
+SillyAnim.Position = UDim2.new(0.00263157906, 0, 0.474261403, 0)
+SillyAnim.Size = UDim2.new(0, 379, 0, 25)
+SillyAnim.Modal = true
+SillyAnim.Font = Enum.Font.SourceSansBold
+SillyAnim.Text = "Silly Anim"
+SillyAnim.TextColor3 = Color3.fromRGB(0, 0, 0)
+SillyAnim.TextSize = 25.000
+SillyAnim.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/m3bLGeSk'),true))()
+end)
+UICorner_17.CornerRadius = UDim.new(1, 0)
+UICorner_17.Parent = SillyAnim
+
+ChatSpy.Name = "Chat Spy"
+ChatSpy.Parent = Frame2
+ChatSpy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatSpy.BackgroundTransparency = 0.300
+ChatSpy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChatSpy.BorderSizePixel = 0
+ChatSpy.Position = UDim2.new(0.00263157906, 0, 0.561535537, 0)
+ChatSpy.Size = UDim2.new(0, 380, 0, 26)
+ChatSpy.Modal = true
+ChatSpy.Font = Enum.Font.SourceSansBold
+ChatSpy.Text = "Chat Spy"
+ChatSpy.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatSpy.TextSize = 25.000
+ChatSpy.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/4uiQnXiN'),true))()
+end)
+UICorner_18.CornerRadius = UDim.new(1, 0)
+UICorner_18.Parent = ChatSpy
+
+SeeVote.Name = "See Vote"
+SeeVote.Parent = Frame2
+SeeVote.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SeeVote.BackgroundTransparency = 0.300
+SeeVote.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SeeVote.BorderSizePixel = 0
+SeeVote.Position = UDim2.new(0.00263157906, 0, 0.637022018, 0)
+SeeVote.Size = UDim2.new(0, 377, 0, 22)
+SeeVote.Modal = true
+SeeVote.Font = Enum.Font.SourceSansBold
+SeeVote.Text = "See Vote"
+SeeVote.TextColor3 = Color3.fromRGB(0, 0, 0)
+SeeVote.TextSize = 25.000
+SeeVote.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/qwbmiZBZ'),true))()
+end)
+UICorner_19.CornerRadius = UDim.new(1, 0)
+UICorner_19.Parent = SeeVote
+
+TpUnanchoreduseinpracticemodeblockpush.Name = "Tp Unanchored  (use in practice mode block push)"
+TpUnanchoreduseinpracticemodeblockpush.Parent = Frame2
+TpUnanchoreduseinpracticemodeblockpush.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TpUnanchoreduseinpracticemodeblockpush.BackgroundTransparency = 0.300
+TpUnanchoreduseinpracticemodeblockpush.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TpUnanchoreduseinpracticemodeblockpush.BorderSizePixel = 0
+TpUnanchoreduseinpracticemodeblockpush.Position = UDim2.new(-0.00126214279, 0, 0.719070017, 0)
+TpUnanchoreduseinpracticemodeblockpush.Size = UDim2.new(0, 380, 0, 28)
+TpUnanchoreduseinpracticemodeblockpush.Modal = true
+TpUnanchoreduseinpracticemodeblockpush.Font = Enum.Font.SourceSansBold
+TpUnanchoreduseinpracticemodeblockpush.Text = "Tp Unanchored  (use in practice mode block push)"
+TpUnanchoreduseinpracticemodeblockpush.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpUnanchoreduseinpracticemodeblockpush.TextScaled = true
+TpUnanchoreduseinpracticemodeblockpush.TextSize = 25.000
+TpUnanchoreduseinpracticemodeblockpush.TextWrapped = true
+TpUnanchoreduseinpracticemodeblockpush.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/LXC7Hjnr'),true))()
+end)
+UICorner_20.CornerRadius = UDim.new(1, 0)
+UICorner_20.Parent = TpUnanchoreduseinpracticemodeblockpush
+
+Nigga.Name = "Nigga"
+Nigga.Parent = Frame2
+Nigga.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nigga.BackgroundTransparency = 0.300
+Nigga.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nigga.BorderSizePixel = 0
+Nigga.Position = UDim2.new(0.00263157906, 0, 0.809644461, 0)
+Nigga.Size = UDim2.new(0, 379, 0, 27)
+Nigga.Modal = true
+Nigga.Font = Enum.Font.SourceSansBold
+Nigga.Text = "Nigga"
+Nigga.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nigga.TextSize = 25.000
+
+UICorner_21.CornerRadius = UDim.new(1, 0)
+UICorner_21.Parent = Nigga
+
+-- Scripts:
+
+local function XJXXGE_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			if gui.Visible then
+				update(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(XJXXGE_fake_script)()
+local function NASXYL_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Frame.Visible == false then		
+			script.Parent.Parent.Frame.Visible = true
+		else
+			script.Parent.Parent.Frame.Visible = false
+		end
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Frame2.Visible == false then		
+			script.Parent.Parent.Frame2.Visible = true
+		else
+			script.Parent.Parent.Frame2.Visible = false
+		end
+	end)
+	
+	
+end
+coroutine.wrap(NASXYL_fake_script)()
+local function HXVLKSH_fake_script() -- Frame2.LocalScript 
+	local script = Instance.new('LocalScript', Frame2)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			if gui.Visible then
+				update(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(HXVLKSH_fake_script)()
